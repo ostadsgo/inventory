@@ -1,0 +1,11 @@
+ERROR:root:Error on save: 'quntity' is an invalid keyword argument for Product
+ERROR:root:Error on remove type object 'Product' has no attribute 'query'
+ERROR:root:Error on remove No row was found when one was required
+ERROR:root:Error on remove No row was found when one was required
+ERROR:root:Error on remove No row was found when one was required
+ERROR:root:Error on remove No row was found when one was required
+ERROR:root:Error on remove No row was found when one was required
+ERROR:root:Error on remove 'name'
+ERROR:root:Error on remove 'name'
+ERROR:root:Error on search 'name'
+ERROR:root:Error on search No row was found when one was required
