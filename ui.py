@@ -160,7 +160,7 @@ class Ui:
             Ui.initial()
             response = input("> ")
 
-            if response in Menu.EXIT.value:
+            if response == Menu.EXIT.value:
                 Ui.exit_ui()
             elif response == Menu.ADD.value:
                 Ui.add_ui()
