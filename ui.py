@@ -21,9 +21,7 @@ class Menu(Enum):
 
 
 class Ui:
-    """
-    User interfece that user will interact.
-    """
+    """User interfece that user will interact."""
 
     @staticmethod
     def clear_screen():
@@ -127,6 +125,7 @@ class Ui:
 
     @staticmethod
     def help_ui():
+        """Print help mannual in the screen."""
         print(Shop.mannual())
 
     @staticmethod
@@ -143,11 +142,13 @@ class Ui:
 
     @staticmethod
     def exit_ui():
+        """Exit of the program."""
         print("Goodbye.")
         exit()
 
     @classmethod
     def initial(cls):
+        """Clear screen print log and make menu and print it."""
         cls.clear_screen()
         print(cls.show_logo())
         print(cls.make_menu())

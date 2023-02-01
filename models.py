@@ -6,6 +6,8 @@ Base = declarative_base()
 
 
 class Product(Base):
+    """Product model."""
+
     __tablename__ = "product"
 
     id = Column(Integer, primary_key=True)
